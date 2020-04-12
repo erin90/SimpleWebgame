@@ -1,0 +1,129 @@
+
+  @font-face{
+    font-family: snakey; 
+    src: url('../fonts/AC-Sagging_Unicode.otf'); 
+  }
+  @font-face{
+    font-family: sans; 
+    src: url('../fonts/SourceSerifPro-Regular.ttf'); 
+  }
+  
+  .navbar {
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 0 0em;
+    top: 0;
+    padding-left: 100px;
+    padding-top: 0px;  
+    font-family: 'snakey';
+  }
+  ul{
+      list-style-type: none;
+      margin:0 0 0 1em;
+      padding: 0px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 1em;
+  }
+  li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 2em;
+    font-weight: bold;
+    color: #182249; 
+    padding: 0.5em 2em 0.5em 2em;
+  }
+  li a:hover {
+    background-color: #ee8ca0;
+    color: #182249;
+    border-radius: 1em;
+    border-radius: 9px;
+  }
+  li a:active {
+    border-radius: 1em;
+  }
+  #img_center{
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+  }
+  #video{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+  .name{
+    color: #182249;
+    margin:0 0 0 0;
+    font-family: 'snakey';
+    font-size: 25px;
+    padding: 40 0 0 0;
+    text-align:center;
+    font-weight: lighter;
+    font-stretch: expanded;
+  }
+  #sources p{
+    justify-content: space-between;
+    padding-left: 19em;
+    font-family: 'sans';
+    padding-right: 18em;
+  }
+  #sources h2{
+      text-align: center;
+      font-family: 'snakey';
+      font-size: 30px;  
+  }
+  #about p{
+    justify-content: space-between;
+    padding-left: 19em;
+    font-family: 'sans';
+    padding-right: 18em;
+    font-size: 20px;
+    font-stretch: expanded;
+    
+  }
+  #about h2{
+    text-align: center;
+    font-family: 'snakey';
+    font-size: 35px;
+}
+  p{
+      color: #c03e48;
+  }
+ .button{
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0 0em;
+    top: 0;
+    padding-left: 550px;
+    padding-top: 0px;  
+    font-family: 'sans';
+ }
+ .button p{
+    display: inline-block;
+    margin: 0;
+ }
+ .button p a{
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    margin: 0em;
+    font-weight: bolder;
+    color:#c03e48; 
+    padding: 0.5em 2em 0.5em 2em;
+ }
+ .button p:hover{
+    background-color: #f8e7db;
+    border-radius: 1em;
+    border-radius: 9px;
+ }
+
+  

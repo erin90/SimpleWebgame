@@ -1,0 +1,1 @@
+This was my first lab in my MIS 21 class. We were asked to do a game so I made a game that can be used to inform kids about the dos and donts when an earthquake hits. I particularly used HTML and CSS here.
